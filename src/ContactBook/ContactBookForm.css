@@ -1,0 +1,57 @@
+#contactForm {
+    display: flex;
+    width: 20%;
+}
+
+input {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+.detail {
+    flex: 1;
+    margin-right: 50px;
+    border: 1px solid #eee;
+    height: 185px;
+  }
+  
+.header {
+    display: flex;
+    background: #3f51b5;
+    color: #fff;
+    padding: 10px 30px;
+    align-items: center;
+    padding: 10px 15px;
+}
+  
+.header .body {
+    flex: 1;
+}
+  
+.formGroup {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+.formGroup label {
+    display: inline-block;
+    width: 100px;
+}
+.formGroup input {
+    flex: 1;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+button.btn.btn-add {
+    margin-right: 15px;
+}
+
+button.btn.btn-update {
+    margin-right: 15px;
+}

@@ -1,0 +1,19 @@
+.contactsBook{
+    display: flex;
+    margin-left: 30px;
+    border-collapse: collapse;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+thead {
+    padding-left: 15px;
+}
+
+.container {
+    flex: 2;
+}
+
+button.btn.btn-new {
+    margin-top: 10px;
+}

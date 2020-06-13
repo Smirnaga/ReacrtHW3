@@ -1,0 +1,17 @@
+td {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+tr:hover {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.id {
+    display: none;
+}
